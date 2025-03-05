@@ -1,0 +1,101 @@
+/* Reset CSS */
+body, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body và nền trang web */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Màu nền nhẹ nhàng */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #b22222; /* Màu đỏ Noel */
+    color: white;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Main content */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    color: #b22222; /* Màu đỏ Noel */
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.intro img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Gallery */
+.gallery {
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    color: #b22222; /* Màu đỏ Noel */
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05); /* Hiệu ứng phóng to khi di chuột qua */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #b22222; /* Màu đỏ Noel */
+    color: white;
+    margin-top: 40px;
+}
